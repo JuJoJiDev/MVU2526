@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6605217447325321597}
   - component: {fileID: 964806136556445434}
+  - component: {fileID: 5803922365288747968}
+  - component: {fileID: 3663318337502779368}
   m_Layer: 0
   m_Name: ProjectContext
   m_TagString: Untagged
@@ -45,7 +47,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Zenject::Zenject.ProjectContext
   _scriptableObjectInstallers: []
-  _monoInstallers: []
+  _monoInstallers:
+  - {fileID: 5803922365288747968}
   _installerPrefabs: []
   _parentNewObjectsUnderContext: 1
   _editorReflectionBakingCoverageMode: 0
@@ -60,3 +63,27 @@ MonoBehaviour:
       _missingHandlerDefaultResponse: 2
       _requireStrictUnsubscribe: 0
       _defaultAsyncTickPriority: 1
+--- !u!114 &5803922365288747968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838906563540068638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f5026ea36eed340b27a8fbf06d2a29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneInitializer
+--- !u!114 &3663318337502779368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838906563540068638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f9c0e879bcf4064a05a8940972ce882, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelLoadingLogic
