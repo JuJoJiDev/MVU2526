@@ -1,26 +1,20 @@
-﻿using System;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using Zenject;
 
-namespace DefaultNamespace
+public class LoadingSceneUILogic : MonoBehaviour
 {
-    public class LoadingSceneUILogic : MonoBehaviour
-    {
-        [SerializeField] private Image loadingBar;
-        LevelLoader levelLoader;
-        
-        [Inject]
-        public void SetDependencies(LevelLoader levelLoader)
-        {
-            this.levelLoader = levelLoader;
-        }
+    [SerializeField] private Image loadingBar;
+    private LevelLoader levelLoader;
 
-        public void Update()
-        {
-            loadingBar.fillAmount = levelLoader.ReportProgress;
-        }
+    [Inject]
+    private void SetDependencies(LevelLoader levelLoader)
+    {
+        this.levelLoader = levelLoader;
     }
-    
+
+    public void Update()
+    {
+        loadingBar.fillAmount = levelLoader.CurrentProgress;
+    }
 }

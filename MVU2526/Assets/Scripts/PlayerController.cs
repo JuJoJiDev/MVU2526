@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Zenject;
@@ -6,26 +5,29 @@ using Zenject;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private LevelConfig nextScene;
-    
+
     private AudioSystem audioSystem;
-    private LevelLoader leverLoader;
+    private LevelLoader levelLoader;
 
     [Inject]
-    public void SetDependecies(AudioSystem audioSystem, LevelLoader sceneLoader)
+    public void SetDependencies(
+        AudioSystem audioSystem,
+        LevelLoader levelLoader)
     {
         this.audioSystem = audioSystem;
-        this.leverLoader = sceneLoader;
+        this.levelLoader = levelLoader;
     }
+
     public void Update()
     {
         if (Keyboard.current.spaceKey.isPressed)
         {
-            audioSystem.EmitSound(("Jump sfx"));
+            audioSystem.EmitSound("Jump sfx");
         }
 
-        if (Keyboard.current.f1Key.wasReleasedThisFrame)
+        if (Keyboard.current.pKey.wasPressedThisFrame)
         {
-            leverLoader.LoadLevel(nextScene);
+            levelLoader.LoadLevel(nextScene);
         }
     }
 }

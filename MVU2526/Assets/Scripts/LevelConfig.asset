@@ -9,11 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1e5244a1d5d496da3b1df346eaf7d88, type: 3}
+  m_Script: {fileID: 11500000, guid: 5245b0500f3159c4497bdb6d85e4d639, type: 3}
   m_Name: LevelConfig
   m_EditorClassIdentifier: Assembly-CSharp::LevelConfig
-  logicScenePath: Scenes/LogicScene
-  audioScenePath: Scenes/AudioScene
-  artScenePath: Scenes/ArtScene
-  designScenePath: Scenes/DesignScene
-  loadingScenePath: Scenes/LoadingScene
+  logicScenePath: Scenes/FirstScene_LOGIC
+  audioScenePath: Scenes/FirstScene_AUDIO
+  artScenePath: Scenes/FirstScene_ART
+  designScenePath: Scenes/FirstScene_DESIGN
