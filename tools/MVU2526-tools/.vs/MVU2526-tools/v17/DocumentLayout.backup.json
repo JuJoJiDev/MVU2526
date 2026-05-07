@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\UMA\\Documents\\GitHub\\UnityMaster\\MVU2526\\tools\\MVU2526-tools\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A91AAF63-E7AE-4B93-BD7D-8D5A9DDD2089}|MVU2526-tools\\MVU2526-tools.csproj|c:\\users\\uma\\documents\\github\\unitymaster\\mvu2526\\tools\\mvu2526-tools\\mvu2526-tools\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A91AAF63-E7AE-4B93-BD7D-8D5A9DDD2089}|MVU2526-tools\\MVU2526-tools.csproj|solutionrelative:mvu2526-tools\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91AAF63-E7AE-4B93-BD7D-8D5A9DDD2089}|MVU2526-tools\\MVU2526-tools.csproj|c:\\users\\uma\\documents\\github\\unitymaster\\mvu2526\\tools\\mvu2526-tools\\mvu2526-tools\\mvu2526-tools.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A91AAF63-E7AE-4B93-BD7D-8D5A9DDD2089}|MVU2526-tools\\MVU2526-tools.csproj|solutionrelative:mvu2526-tools\\mvu2526-tools.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MVU2526-tools.csproj",
+              "DocumentMoniker": "C:\\Users\\UMA\\Documents\\GitHub\\UnityMaster\\MVU2526\\tools\\MVU2526-tools\\MVU2526-tools\\MVU2526-tools.csproj",
+              "RelativeDocumentMoniker": "MVU2526-tools\\MVU2526-tools.csproj",
+              "ToolTip": "C:\\Users\\UMA\\Documents\\GitHub\\UnityMaster\\MVU2526\\tools\\MVU2526-tools\\MVU2526-tools\\MVU2526-tools.csproj",
+              "RelativeToolTip": "MVU2526-tools\\MVU2526-tools.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-07T15:58:32.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\UMA\\Documents\\GitHub\\UnityMaster\\MVU2526\\tools\\MVU2526-tools\\MVU2526-tools\\Program.cs",
+              "RelativeDocumentMoniker": "MVU2526-tools\\Program.cs",
+              "ToolTip": "C:\\Users\\UMA\\Documents\\GitHub\\UnityMaster\\MVU2526\\tools\\MVU2526-tools\\MVU2526-tools\\Program.cs",
+              "RelativeToolTip": "MVU2526-tools\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAJ4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T15:01:37.361Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

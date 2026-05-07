@@ -4,6 +4,24 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: b38435b0ee198ab479073dc871b6ac04
+  - enabled: 1
+    path: Assets/Scenes/LogicScene.unity
+    guid: dd5f71ceeabb5df4ab64f2b7955229f6
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 8132b074689548b468f99f56c249cff1
+  - enabled: 1
+    path: Assets/Scenes/DesignScene.unity
+    guid: c4ec33351def12e4290cf21453b11182
+  - enabled: 1
+    path: Assets/Scenes/AudioScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/ArtScene.unity
+    guid: f3b6469c31abd3f4e99786ce593c72ba
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

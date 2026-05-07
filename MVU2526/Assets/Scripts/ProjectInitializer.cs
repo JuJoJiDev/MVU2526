@@ -17,7 +17,7 @@ public class AudioSystem
     {
         Debug.Log($"Sound Emited {id}");
     }
-}
+} 
 
 public class LevelLoader
 {
@@ -39,4 +39,4 @@ public class LevelLoader
     {
         CurrentProgress = progress;
     }
-}
+} 

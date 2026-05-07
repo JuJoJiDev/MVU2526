@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "CDiD/Zi+IRQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\UMA\\Documents\\GitHub\\UnityMaster\\MVU2526\\tools\\MVU2526-tools\\MVU2526-tools\\MVU2526-tools.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\UMA\\.nuget\\packages\\discord.net\\3.19.1\\discord.net.3.19.1.nupkg.sha512",
+    "C:\\Users\\UMA\\.nuget\\packages\\discord.net.commands\\3.19.1\\discord.net.commands.3.19.1.nupkg.sha512",
+    "C:\\Users\\UMA\\.nuget\\packages\\discord.net.core\\3.19.1\\discord.net.core.3.19.1.nupkg.sha512",
+    "C:\\Users\\UMA\\.nuget\\packages\\discord.net.dave\\3.19.1\\discord.net.dave.3.19.1.nupkg.sha512",
+    "C:\\Users\\UMA\\.nuget\\packages\\discord.net.interactions\\3.19.1\\discord.net.interactions.3.19.1.nupkg.sha512",
+    "C:\\Users\\UMA\\.nuget\\packages\\discord.net.rest\\3.19.1\\discord.net.rest.3.19.1.nupkg.sha512",
+    "C:\\Users\\UMA\\.nuget\\packages\\discord.net.webhook\\3.19.1\\discord.net.webhook.3.19.1.nupkg.sha512",
+    "C:\\Users\\UMA\\.nuget\\packages\\discord.net.websocket\\3.19.1\\discord.net.websocket.3.19.1.nupkg.sha512",
+    "C:\\Users\\UMA\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\UMA\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
